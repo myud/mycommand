@@ -47,9 +47,8 @@ remove()
                 
                 if [[ -f "$FILE_PATH" ]]; then
                         rm -rf "$FILE_PATH"
+                        echo "remove: ${FILE_PATH}"
                 fi
-                
-                echo "remove: ${FILE_PATH}"
                 
         done
 }
