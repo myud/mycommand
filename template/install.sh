@@ -14,6 +14,17 @@ fi
 #       变量
 #
 ############################################################
+URL1=
+URL2=
+
+FUNCTION_DIR=
+COMMAND_DIR=
+RESOURCE_DIR=
+
+HOLD_FUNCTION=
+HOLD_COMMAND=
+REMOVE_COMMAND=
+REMOVE_RESOURCE=
 
 ############################################################
 #
