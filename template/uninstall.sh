@@ -14,10 +14,10 @@ fi
 #       变量
 #
 ############################################################
-FUNCTION_DIR=
-COMMAND_DIR=
-RESOURCE_DIR=
-TMPFILE_DIR=
+FUNCTION_DIR="/usr/local/lib"
+COMMAND_DIR="/usr/local/bin"
+RESOURCE_DIR="/root/.myud/res"
+TMPFILE_DIR="/root"
 
 HOLD_FUNCTION=
 HOLD_COMMAND=

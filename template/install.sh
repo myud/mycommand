@@ -17,9 +17,9 @@ fi
 URL1=
 URL2=
 
-FUNCTION_DIR=
-COMMAND_DIR=
-RESOURCE_DIR=
+FUNCTION_DIR="/usr/local/lib"
+COMMAND_DIR="/usr/local/bin"
+RESOURCE_DIR="/root/.myud/res"
 
 HOLD_FUNCTION=
 HOLD_COMMAND=
