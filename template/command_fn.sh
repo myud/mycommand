@@ -1,13 +1,15 @@
 #!/bin/bash
 
-export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
-
 set -eu
 
-if [[ "$(id -u)" != "0" ]]; then
-        echo "Error: must run with root"
+if [[ -s "/usr/local/lib/myfn_standard" ]]; then
+        . /usr/local/lib/myfn_standard
+else
+        echo "Error: /usr/local/lib/myfn_standard not found"
         exit 1
 fi
+
+check_root
 
 ############################################################
 #
